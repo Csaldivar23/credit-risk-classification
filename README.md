@@ -7,7 +7,7 @@ I used a dataset of historical lending activity from a peer-to-peer lending serv
 The goal is to predict whether loans are healthy (denoted as 0) or high-risk (denoted as 1).
 
 First, I imported the CSV data and converted it into a Pandas DataFrame. I then separated the data into labels `(y)` and features `(X)`.
-After that, I split the data into training and testing datasets using `train_test_split`, with a random state of 1 to ensure reproducibility.
+After that, I split the data into training and testing datasets using train_test_split, with a random_state of 1 to ensure reproducibility.
 
 Next, I fitted the Logistic Regression model using the training data to learn the patterns in the dataset.
 Once the model was trained, I made predictions on the testing data to evaluate its performance in identifying whether loans were healthy or high-risk.
